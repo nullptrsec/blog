@@ -1,0 +1,27 @@
+title: nullptr security blog
+description: > # this means to ignore newlines until "show_excerpts:"
+  nullptr security's blog for technical content.
+
+show_excerpts: true # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+theme: minima
+minima:
+  date_format: "%b %-d, %Y"
+  skin: classic-dark
+
+  # generate social links in footer
+  social_links:
+    github:  nullptrsec
+    corporate_linkedin: nullptr-security
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+google_analytics: G-80NQJJXMF6
+
+permalink: /posts/:title
+
+
